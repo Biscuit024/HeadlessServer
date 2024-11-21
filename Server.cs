@@ -2,14 +2,16 @@
 
 namespace HeadlessServer
 {
-
     static class Server
     {
         private const int SERVERPORT = 27015;
 
         private static bool s_isServerRunning = false;
 
-        private static void LaunchMPGameForScenario()
+        private static void LaunchMPGameForScenario(ScenarioInfo info)
+        {
+            Console.WriteLine($"Launching MP Game for {}")
+        }
 
         private static void OnServerCreated(LobbyCreated_t lobbyData, bool ioFailure)
         {

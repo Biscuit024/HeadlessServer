@@ -1,10 +1,14 @@
 ﻿namespace HeadlessServer
 {
+    public class LODCampaignInfo
+    {
+
+    }
     public static class CampaignSelector
     {
         public delegate void CampaignInfoDelegate(CampaignInfo campaignInfo);
 
-        public static Campaign
+        public static Campaign LoadCampaign()
     }
     public class ScenarioInfo
     {
